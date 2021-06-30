@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px black dotted; */
+}
+/* font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif; */
+
+body {
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.card{
+    width: 307px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.card > img {
+    margin: 48px 196px 35px 48px;
+}
+
+.card > h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    color: #F2F2F2;
+    margin-left: 48px;
+    margin-bottom: 25px;
+}
+
+.card > p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    width: 212px;
+    height: 125px;
+    font-size: 15px;
+
+    mix-blend-mode: normal;
+    opacity: 0.75;
+
+    margin: 0 auto;
+}
+
+.card-1 {
+    background: #E28625;
+}
+
+.card-1 a {
+    color: #E28625;;
+}
+
+.card-2 {
+    background: #006971;    
+}
+
+.card-2 a{
+    color: #006971;   
+}
+
+.card-3 {
+    background: #004140;    
+}
+
+.card-3 a {
+    color: #004140;    
+}
+
+.card > a {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 11px 32px;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    margin: 83px auto 48px 48px;
+}

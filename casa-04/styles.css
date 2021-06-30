@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px black dotted; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #DADDE1;
+    
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px auto;
+}
+
+.card-1 {
+    width: 666px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 50px 33px;
+    align-items: baseline;
+}
+
+.title-1 > h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.title-1 > a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.card-2 {
+    width: 451px;
+    height: 653px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 74px -20px rgba(130, 148, 173, 0.44);
+    border-radius: 15px;
+}
+
+.profiles {
+    display: flex;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 135px;
+    height: 195px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 9px;
+}
+
+.profile-picture {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.plus {
+    width: 40px;
+    height: 40px;
+    left: 565px;
+    top: 318px;
+
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.sms{
+    width: 34px;
+    height: 34px;
+}
+
+.title-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.title-2 > p {
+    font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+margin: 59px 0 0 10px;
+
+}
+
+.title-2 > h2 {
+    font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+}
+
+.numbers {
+    background-color: #FFFFFF;
+    padding: 6px;
+    border: #000000 solid 1px;
+    border-radius: 25px;
+}
+
+.profile-2 {
+    width: 351px;
+    height: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.name-profile {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.city-profile {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.link > a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    background-color: #000000;
+    border-radius: 60px;
+    padding: 18px 30px;
+    text-decoration: none;
+}
+
+.link{
+    display: flex;
+    margin: 70px 0 0 50px;
+}
