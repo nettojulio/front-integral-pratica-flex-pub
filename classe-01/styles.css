@@ -27,7 +27,7 @@ body {
     height: 500px;
     display: flex;
     flex-direction: column;
-    border-radius: 8px;
+
 }
 
 .card > img {
@@ -58,6 +58,8 @@ body {
 
 .card-1 {
     background: #E28625;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .card-1 a {
@@ -73,7 +75,9 @@ body {
 }
 
 .card-3 {
-    background: #004140;    
+    background: #004140;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;    
 }
 
 .card-3 a {
