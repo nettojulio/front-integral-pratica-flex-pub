@@ -4,6 +4,8 @@
 
 ## Lista de pessoas
 
+<https://front-integral-pratica-flex-pub-casa-04.vercel.app/>
+
 Reproduza o layout presente no "Exercício 4" do arquivo figma (.fig) encontrado na raiz do projeto.
 
 ![exercicio](https://i.imgur.com/X20izOD.png)

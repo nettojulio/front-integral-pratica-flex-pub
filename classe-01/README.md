@@ -4,6 +4,8 @@
 
 ## 3 Cards
 
+<https://front-integral-pratica-flex-pub-classe-01.vercel.app/>
+
 Reproduza o layout presente no "Exercício 1" do arquivo figma (.fig) encontrado na raiz do projeto.
 
 ![exercicio](https://i.imgur.com/2J0vNic.png)

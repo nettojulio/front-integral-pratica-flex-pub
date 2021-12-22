@@ -4,6 +4,8 @@
 
 ## Card de perfil
 
+<https://front-integral-pratica-flex-pub-casa-05.vercel.app/>
+
 Reproduza o layout presente no "Exercício 5" do arquivo figma (.fig) encontrado na raiz do projeto.
 
 ![exercicio](https://i.imgur.com/nS5xNNT.png)
